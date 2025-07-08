@@ -9,7 +9,6 @@ A comprehensive tutorial implementation of OAuth 2.0 authentication using Node.j
 - **Protected Routes**: Middleware-based route protection
 - **User Profile Management**: Complete user profile system
 - **Security Features**: CORS, Helmet, rate limiting
-- **Modern Frontend**: React with TypeScript and Tailwind CSS
 
 ## Getting Started
 
@@ -56,24 +55,19 @@ A comprehensive tutorial implementation of OAuth 2.0 authentication using Node.j
    ```
 
 2. The server will run on `http://localhost:3001`
-3. The frontend will be available at `http://localhost:5173`
 
 ## Project Structure
 
 ```
-├── server/
-│   ├── index.js              # Main Express server
-│   ├── config/
-│   │   └── passport.js       # Passport.js configuration
-│   ├── routes/
-│   │   ├── auth.js          # Authentication routes
-│   │   └── api.js           # Protected API routes
-│   └── middleware/
-│       └── auth.js          # Authentication middleware
-├── src/
-│   ├── App.tsx              # React frontend
-│   └── main.tsx             # React entry point
-└── .env.example             # Environment variables template
+── server/
+   ├── index.js              # Main Express server
+   ├── config/
+   │   └── passport.js       # Passport.js configuration
+   ├── routes/
+   │   ├── auth.js          # Authentication routes
+   │   └── api.js           # Protected API routes
+   └── middleware/
+       └── auth.js          # Authentication middleware
 ```
 
 ## API Endpoints
